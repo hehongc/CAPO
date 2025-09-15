@@ -273,8 +273,8 @@ def deep_update_dict(fr, to):
 @click.option('--gpu', default=0)
 @click.option('--seed', default=0)
 @click.option('--exp_name', default=None)
-@click.option('--wandb_project_name', default='CSRO')
-@click.option('--wandb_run_name', default='CSRO_')
+@click.option('--wandb_project_name', default='_')
+@click.option('--wandb_run_name', default='_')
 def main(config, gpu, seed=0, exp_name=None, wandb_project_name=None, wandb_run_name=None):
 
     variant = default_config
